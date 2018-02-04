@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>StopWatch</title>
+
+  <link rel="stylesheet" href="./css/style.css">
+
+  <script src="./js/jquery-3.3.1.js" charset="utf-8"></script>
+  <script src="./js/app.js" charset="utf-8"></script>
+</head>
+<body>
+
+  <div class="title-container">
+    <h1 class="title">Stopwatch</h1>
+  </div>
+
+  <div class="container">
+    <div id="display">
+      <span class="time" id="mins">00</span>
+      <strong>:</strong>
+      <span class="time" id="secs">00</span>
+      <strong>:</strong>
+      <span class="time" id="ms">00</span>
+    </div>
+    <button id="startStop">Start</button>
+    <button id="reset">Reset</button>
+    <button id="saveTime">Log Time</button>
+    <br>
+
+    <div class="title-container">
+      <h2 class="subtitle">Time Logs</h2>
+    </div>
+
+
+    <div class="logs" id="logs"></div>
+  </div>
+
+</body>
+</html>
